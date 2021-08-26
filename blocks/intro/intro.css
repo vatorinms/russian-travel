@@ -1,0 +1,41 @@
+.intro {
+  margin-top: 114px;
+  margin-bottom: 92px;
+  margin-left: auto;
+  margin-right: auto;
+  
+  max-width: 984px;
+  /* width: 100%; */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 48px;
+  padding-right: 48px;
+
+}
+
+
+@media (max-width: 800px) {
+  .intro {
+    margin-top: 110px;
+    margin-bottom: 88px;
+    max-width: 720px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .intro {
+    margin-top: 86px;
+    margin-bottom: 64px;
+    /* max-width: 288px; */
+    /* Убрали макс высоту и пропал марджин слева...??? */
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+

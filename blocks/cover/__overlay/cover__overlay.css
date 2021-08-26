@@ -1,0 +1,13 @@
+.cover__overlay {
+  display: grid;
+  max-width: 1184px;
+  width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  transition: opacity .3s ease-in-out;
+  text-decoration: none;
+}
+
+.cover__overlay:hover {
+  opacity: .8;
+}

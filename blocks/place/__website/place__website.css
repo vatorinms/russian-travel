@@ -1,0 +1,9 @@
+.place__website {
+    align-self: flex-end;
+  }
+
+  @media (max-width: 425px) {
+    .place__website {
+      display: none;
+    }
+  }

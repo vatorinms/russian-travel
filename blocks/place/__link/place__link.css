@@ -1,0 +1,14 @@
+.place__link {
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    transition: opacity .3s ease-in-out;
+  }
+
+  .place__link:hover {
+    opacity: .8;
+  }

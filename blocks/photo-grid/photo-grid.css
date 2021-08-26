@@ -1,0 +1,54 @@
+.photo-grid {
+  display: grid;
+  /* grid-template-columns: repeat(4, 1fr); */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  margin-top: 0;
+  margin-bottom: 92px;
+  /* margin-left: auto;
+  margin-right: auto;  */
+  max-width: 1184px;
+  /* width: 100%;  */
+  /* Почему нельзя было 100% ставить?????????? */
+
+  /* padding-right: 48px;
+  padding-left: 48px; */
+
+}
+
+@media (max-width: 1024px) {
+  .photo-grid {
+    grid-column-gap: 14px;
+    grid-row-gap: 11px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    max-width: 928px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+
+
+
+@media (max-width: 800px) {
+  .photo-grid {
+    padding-left: 24px;
+    padding-right: 24px;
+    grid-row-gap: 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 88px;
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 425px) {
+  .photo-grid {
+    padding-left: 16px;
+    padding-right: 16px;
+    grid-row-gap: 9px;
+    grid-template-columns: 1fr;
+    margin-bottom: 64px;
+  }
+}

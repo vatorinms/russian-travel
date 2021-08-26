@@ -1,0 +1,9 @@
+.cover__background {
+    grid-column: 1;
+    grid-row: 1;
+    background-image: url('../../../images/__background.jpeg');
+    opacity: 0.3;
+    padding-bottom: 62.5%;
+    object-fit: cover;
+    background-position: center;
+  }

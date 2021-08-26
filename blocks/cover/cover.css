@@ -1,0 +1,17 @@
+.cover {
+  padding: 8px 0 68px;
+}
+
+
+
+@media (max-width: 800px) {
+  .cover {
+    padding: 8px 0 88px;
+  }
+}
+
+@media (max-width: 425px) {
+  .cover {
+    padding: 0 0 64px;
+  }
+}

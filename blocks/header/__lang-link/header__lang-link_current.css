@@ -1,0 +1,5 @@
+.header__lang-link_current {
+    text-decoration: underline;
+    pointer-events: none;
+    cursor: default;
+  }

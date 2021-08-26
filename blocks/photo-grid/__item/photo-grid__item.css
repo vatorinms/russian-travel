@@ -1,0 +1,12 @@
+.photo-grid__item {
+    /* background-image: url(../../../images/photo-grid-train.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* max-width: 284px;
+    max-height: 213px; */
+    width: 100%;
+    /* object-fit: cover; */
+  }
+
+  
