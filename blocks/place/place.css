@@ -5,10 +5,13 @@
     grid-column-gap: 40px;
     grid-row-gap: 48px;
     padding-bottom: 80px;
-    /* width: 100%; */
+    padding: 0;
+    width: 100%;
     max-width: 984px;
     margin: 0 auto;
   }
+
+
 
   @media (max-width: 1024px) {
     .place {
@@ -34,6 +37,8 @@
       grid-template-rows: repeat(3, auto);
       grid-row-gap: 32px;
       padding-bottom: 50px;
+      padding-left: 0;
+      padding-right: 0;
     }
   }
   
