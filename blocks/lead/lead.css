@@ -19,9 +19,3 @@
     padding: 0;
   }
 }
-
-@media (max-width: 425px) {
-  .lead {
-    padding: 0;
-  }
-}

@@ -1,5 +1,5 @@
 .intro {
-  margin-top: 114px;
+  margin-top: 92px;
   margin-bottom: 92px;
   margin-left: auto;
   margin-right: auto;
@@ -18,7 +18,7 @@
 
 @media (max-width: 800px) {
   .intro {
-    margin-top: 110px;
+    margin-top: 88px;
     margin-bottom: 88px;
     max-width: 720px;
     padding-left: 24px;
@@ -28,7 +28,7 @@
 
 @media (max-width: 425px) {
   .intro {
-    margin-top: 86px;
+    margin-top: 64px;
     margin-bottom: 64px;
     /* max-width: 288px; */
     /* Убрали макс высоту и пропал марджин слева...??? */
